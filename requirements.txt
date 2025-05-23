@@ -1,0 +1,16 @@
+asgiref @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/asgiref_1729057877436/work
+cffi==1.17.1
+cryptography==44.0.2
+Django==5.1.7
+django-filter==25.1
+djangorestframework==3.16.0
+Markdown==3.7
+oracledb==3.0.0
+pycparser==2.22
+python-decouple==3.8
+pytz @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pytz_1729039375330/work
+setuptools==75.8.0
+sqlparse @ file:///C:/Users/dev-admin/buildout/croot/sqlparse_1739565583021/work
+typing_extensions @ file:///C:/b/abs_0ffjxtihug/croot/typing_extensions_1734714875646/work
+tzdata==2025.1
+wheel==0.45.1

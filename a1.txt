@@ -1,0 +1,11 @@
+Qual é o processo de request/response django?
+1. HTTP Request faz um request URL
+2. Veio na URL principal
+3. Acessa arquivo na rota Categories (categories.urls) e aponta para a pasta categorias e acessa URL (arquivo)
+4. Ele passa para a View () de Categorias, que chama a classe CategoryViewSet
+5. CategoryViewSet faz 2 coisas, chama método objects.all() (todos os objetos da classe) do arquivo Model e e chama classe CategorySerializer do arquivo Serializer
+6. Views chama Serializer e Model, Serializer chama Model
+7. O Model acessa banco de dados e puxa todas informações do banco
+8. Serializer serializa os dados do banco e transforma em formato JSON e retorna até o HTTP response
+
+Git Push, Pull, Merge, Clone
